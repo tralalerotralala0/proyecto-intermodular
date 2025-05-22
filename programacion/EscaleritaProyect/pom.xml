@@ -31,6 +31,11 @@
 
 	<dependencies>
 		<dependency>
+			<groupId>org.mongodb</groupId>
+			<artifactId>mongodb-driver-sync</artifactId>
+			<version>4.10.2</version> <!-- última versión a 2025 -->
+		</dependency>
+		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 			<version>8.0.33</version><!--$NO-MVN-MAN-VER$--> <!-- Usa la versión más reciente -->
@@ -38,13 +43,20 @@
 		<dependency>
 			<groupId>org.junit.jupiter</groupId>
 			<artifactId>junit-jupiter-api</artifactId>
+			<version>5.11.0</version>
 			<scope>test</scope>
 		</dependency>
 		<!-- Optionally: parameterized tests support -->
 		<dependency>
 			<groupId>org.junit.jupiter</groupId>
 			<artifactId>junit-jupiter-params</artifactId>
+			<version>5.11.0</version>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.pruebas</groupId>
+			<artifactId>mongo</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 
